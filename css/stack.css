@@ -7,16 +7,16 @@
 /* header */
 .header_left img{
     object-fit: contain;
-    height: 50px;
+    height: 40px;
     margin-left: 60px;
 }
 
 .header{
-    background-color: rgba(128, 128, 128,0.2);
+    background-color: rgba(128, 128, 128,0.1);
     display: flex;
+    height: 80px;
     align-items: center;
-    justify-content: space-between;
-    border-bottom: 2px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
     border-top: 3px solid orangered;
 }
 
@@ -29,55 +29,190 @@
     padding: 10px;
     cursor: pointer;
 }
+.header_left :hover{
+    background-color: rgba(97, 97, 97,0.2);
+}
 
 .header_middle{
     margin-left: 1px;
     display: flex;
-    flex: 0.9;
+    flex: 0.94;
     align-items: center;
+    height: 50px;
     background-color: white;
-    padding: 10px;
+
+    font-size:larger;
     border-radius: 2px;
- 
+    padding: 1px;
+    border-color:black;
 
-    margin-right: 300px;
+    margin-right: 50px;
 }
-nav{
- 
-}
-nav ul{
+.header_middle input {
+    flex: 100px;
+    border:none;
+    width: 100%;
+    outline: black;
+    }
+    
 
-}
 nav ul li {
+    display: flex;
+    margin-left: 20px;
     list-style-type: none;
     width: 100px;
     float: left;
     color: gray;
     cursor: pointer;
+    align-items: center;
+    padding: 10px;
 }
-.material-symbols-outlined{
-    color: gray;
+nav ul li:hover{
+   
+    background-color: rgba(117, 115, 115,0.1);
+    border-radius:10px ;
+}
+
+
+.header_left {
+    padding:10px;   
+    display: flex;
+ 
+}
+.log button{
+    padding: 10px;
+    cursor: pointer;
+height: 40px;
+width: 100px;
+color: blue;
+background-color: lightblue;
+border-color:blue;
+border-radius:5px ;
+}
+.sign button{
+   
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+    padding: 12px;
+    cursor: pointer;
+}
+.side_bar{
+    margin-top: 0px;
+    margin-left: 50px;
+    flex: 0.3;
+    max-width: 250px;
+    padding-right: px;
+    position: sticky;
+    overflow: scroll;
+    height: 900px;
+}
+.side_bar_option{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    color: #818181;
+}
+.side_bar_option1{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    color: #818181;
 
 }
 
-.header_middle input {
-border: none;
-width: 100%;
-padding: 10px;
-outline: none;
-font-size:large ;
-background-color: white;
+.side_bar_option2{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    margin-left: 10px;
+    color: #818181;
+    cursor: pointer;
+}
+.side_bar_option3{
+    margin-top: 15px;
+    margin-right: 1px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: black;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: #818181;
+    display: flex;
+    border-right: 5px solid orange;
+    align-items: center;
+
+}
+.side_bar_option4{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    margin-left: 10px;
+    color: #818181;
+    cursor: pointer;
+}
+.side_bar_option4 span{
+    margin-left: 70px;
 }
 
-.header_front{
-    font-size: 14px;
-    margin-left 15px;
+.side_bar_option5{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    margin-left: 10px;
+    color: #818181;
+    cursor: pointer;
+}
+.side_bar_option5 h4{
+    margin-left: 10px;
+}
+.side_bar_option :hover{
+    color: black;
+}
+.side_bar_option5 :hover{
+    color: black;
+}
+
+
+.card{
+    width: 200px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid darkgray;
+    position: relative;
+    margin-top: 0px;
+    margin-left:5px;
     
 }
-.header_right {
-    size: 1000px;
-    margin-left: 0pxs;
-    justify-content:center;
+.card-body{
+    padding: 10px;
+}
+.card img{
+    object-fit: contain;
+    height: 200px;
+    margin-left:0px;
+    width: 200px;
+}
+.side_bar_option6{
+    align-items: center;
+    height: 35px;
+    padding: 0 16px;
+    margin-top: 0px;
+    cursor: pointer;
+    color: black;
     display: flex;
-    padding-right: 50px;
+    background-color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    border-radius: 5px ;
+    border-top: 2px solid white;
 }
