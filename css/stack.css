@@ -100,7 +100,7 @@ border-radius:5px ;
 }
 .side_bar{
     margin-top: 0px;
-    margin-left: 50px;
+    margin-left: 60px;
     flex: 0.3;
     max-width: 250px;
     padding-right: px;
@@ -130,7 +130,7 @@ border-radius:5px ;
     display: flex;
     align-items: center;
     height: 40px;
-    padding: 0 10px;
+    padding: 0 30px;
     margin-left: 10px;
     color: #818181;
     cursor: pointer;
@@ -141,7 +141,7 @@ border-radius:5px ;
     margin-bottom: 10px;
     text-transform: capitalize;
     color: black;
-    margin-left: 10px;
+    margin-left: 30px;
     padding: 15px;
     background-color: #818181;
     display: flex;
@@ -203,7 +203,7 @@ border-radius:5px ;
 }
 .side_bar_option6{
     align-items: center;
-    height: 35px;
+    height: 40px;
     padding: 0 16px;
     margin-top: 0px;
     cursor: pointer;
@@ -215,4 +215,79 @@ border-radius:5px ;
     color: white;
     border-radius: 5px ;
     border-top: 2px solid white;
+}
+/*main body*/
+.main_body{
+    display: flex;
+    height: 70vh;   
+}
+body{
+    height: 100vh;
+    overflow-y: hidden;
+}
+.side_bar_option7{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #818181;
+    cursor: pointer;
+
+}
+.side_bar_option7:hover{
+    color: black;
+}
+.stack_profile_img{
+    position: sticky;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    position: relative;
+    display:flex;
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0px 0px 1px 5px whitesmoke;
+    margin-left:40px ;
+    cursor: pointer;
+}
+.stack_text{
+    display: flex;
+    flex: 0.2;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.stack_text1{
+    display: flex;
+    margin-left:20px;
+    color: #818181;
+    font-size: 20px;
+}
+.stack_text2{
+    display: flex;
+    margin-left:20px ;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #818181;
+}
+
+.stack_text2 img{
+    width: 20px;
+    height: 20px;
+}
+.stack_right button{
+    display: flex;
+    flex: 0.21;
+    font-size: 25px;
+   
+    height: 50px;
+    padding-left: 10px;
+    align-items: center;
+    width: 100px;
+    margin-top: 40px;
 }
