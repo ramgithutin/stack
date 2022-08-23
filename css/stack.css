@@ -170,7 +170,9 @@ border-radius:5px ;
     color: #818181;
     cursor: pointer;
 }
-
+.side_bar_option5  .material-symbols-outlined{
+color:orange;
+}
 .side_bar_option :hover{
     color: black;
 }
@@ -222,6 +224,7 @@ border-radius:5px ;
 }
 
 body{
+font-family:'Helvetica Neue',Helvetica,Arial, sans-serif;
 }
 
 
@@ -249,6 +252,8 @@ body{
 
 .listsettingleft{
     box-shadow: 1px 0px 5px -1px rgb(220, 225, 228);
+    width:140px; 
+    height:140px;
 }
 
 .box{
@@ -303,7 +308,12 @@ body{
     margin-left: -10px;
     margin-top: -15px;
 }
-
+.locbodyopt img{
+   width:16px; 
+   height: 16px; 
+   margin-top: 10px;  
+    margin-left: 5px; 
+}
 .section{
     display: flex;
     cursor: pointer;
@@ -386,14 +396,17 @@ body{
     box-shadow: 0px 2px 2px -2px ;
     
 }
-
+.statsfirst{
+margin-top:20px;
+}
 .stats{
    
    width: 150px;
+   height: 230px;
     padding-right: 100px;
     margin-right: 480px;
-  border: 1px solid black;
-  border-radius:5px;
+    border: 1px solid rgba(128,128,128,0.2);
+    border-radius:5px;
   margin-bottom:40px;
 
 }
@@ -414,7 +427,9 @@ body{
     margin-left: 10px;
     margin-top: 5px;
 }
-
+.stats .material-symbols-outlined{
+margin-left:10px;
+}
 .stat_text{
     display: flex;
     align-items: center;
@@ -428,25 +443,67 @@ body{
     color: #818181;
     font-size: 13px;
 }
-
+.com{
+margin-top:40px;
+}
+.community img{
+height:24px;
+}
+.commopt img{
+height:24px;
+}
 .space{
     padding-right:40px;
 }
 
 .community{
-   width: 150px;
-    padding-right: 100px;
+   width: 250px;
+   height: 200px;
+    padding-right: 50px;
     margin-right: 480px;
-  border: 1px solid black;
+border: 1px solid rgba(128,128,128,0.2);
   border-radius:5px;
 	
 }
-
-
+.collective{
+position:relative;
+top: -50px;
+width: 200px;
+padding:5px;
+padding-right: 50px;
+margin-right: 480px;
+border: 1px solid rgba(128,128,128,0.2);
+border-radius:5px;
+margin-top:50px;
+}
+.collect{
+margin-top:-40px;
+font-size:25px;
+font-weight:20px;
+}
+.collective img{
+width: 50px; 
+}
+.collective1{
+margin-top:2px;
+}
+.collective2{
+margin-left:50px;
+}
+.aboutuser{ 
+padding-left:10px;
+}
 .statuser{
   display:flex;
 }
-
+.badges img{
+width: 50px; 
+height:50px; 
+padding-left:10px;
+}
+.badges h3{
+padding-top:10px;
+}
 .abspace{
   padding-right:250px;
 }
@@ -468,17 +525,22 @@ a:visited{
 .info{
   padding-top:10px;
 }
-
+.info1{
+  padding -top:10px;
+  margin-top:30px;
+}
 .li{
   padding-top:10px;
 }
 
 .community{
     color: #0063bf;
-    max-width: 200px;
+   
+    margin-top: 10px;
 }
 .badges{
   display:flex;
+ 
 }
 
 .gold{
@@ -488,7 +550,7 @@ a:visited{
     padding-bottom: 40px;
     margin-right: 20px;
     margin-left:-430px;
-  border: 1px solid black;
+border: 1px solid rgba(128,128,128,0.2);
   border-radius:5px;
 	
 }
@@ -500,7 +562,7 @@ a:visited{
    width: 200px;
     padding-right: 10px;
     margin-right: 20px;
-  border: 1px solid black;
+   border: 1px solid rgba(128,128,128,0.2);
   border-radius:5px;
 	
 }
@@ -510,7 +572,7 @@ a:visited{
    width: 200px;
     padding-right: 10px;
     margin-right: 20px;
-  border: 1px solid black;
+    border: 1px solid rgba(128,128,128,0.2);
   border-radius:5px;
 	
 }
@@ -521,7 +583,7 @@ a:visited{
 }
 
 .commspace{
- padding-right:180px;
+ padding-right:150px;
 }
 
 
