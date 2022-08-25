@@ -3,8 +3,9 @@
 	padding: 0;
 
 }
+
 body {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
 }
 
 /* header */
@@ -12,15 +13,15 @@ body {
 	background-color: rgba(128, 128, 128, 0.1);
 	display: flex;
 	align-items: center;
-
+	padding: 8px;
 	border-bottom: 1px solid whitesmoke;
 	border-top: 3px solid orangered;
 }
 
 .headerLeft img {
 	object-fit: contain;
-	width:80px;
-	padding-left:10px;
+	width: 140px;
+	margin-left: 40px;
 }
 
 .headerLeft {
@@ -30,7 +31,6 @@ body {
 	cursor: pointer;
 	padding: 1px;
 	display: flex;
-	font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -66,15 +66,17 @@ nav ul li {
 	align-items: center;
 	padding: 1px;
 }
-nav h3{
-	font-weight:10;
-	font-size:16px;
+
+nav h3 {
+	font-weight: 10;
+	font-size: 16px;
 }
 
-nav ul li:hover {
+nav ul li h3:hover {
 
 	background-color: rgba(117, 115, 115, 0.1);
-	border-radius: 10px;
+	border-radius: 2px;
+	color: black;
 	align-items: center;
 }
 
@@ -89,32 +91,33 @@ nav ul li:hover {
 }
 
 .sign button {
-
+	font-size: 15px;
 	width: 80px;
 	color: white;
 	background-color: blue;
-	padding: 10px;
+	padding: 5px;
 	cursor: pointer;
 	border-radius: 5px;
+}
+
+.sign button:hover {
+	background-color: #2060df;
+}
+
+.log button:hover {
+	background-color: #2060df22;
 }
 
 /*main body*/
 .mainBody {
 	display: flex;
-	overflow: hidden;
 }
 
-.side_bar {
+/*side bar*/
 
-	overflow: scroll;
-	width: 220px;
-	height: 900px;
-}
-
-.side_bar_option {
+.sideBarOption {
 	display: flex;
 	align-items: center;
-	height: 20px;
 	padding: 10px;
 	margin-top: 0px;
 	cursor: pointer;
@@ -122,32 +125,28 @@ nav ul li:hover {
 	color: #818181;
 }
 
-.side_bar_option1 {
+.sideBarOption1 {
 	display: flex;
 	margin-left: 40px;
 	align-items: center;
-	height: 10px;
 	padding: 10px;
 	color: #818181;
 
 }
 
-.side_bar_option2 {
+.sideBarOption2 {
 	display: flex;
 	align-items: center;
-	height: 10px;
 	padding: 1px;
-	;
 	margin-left: 70px;
 	color: #818181;
 	cursor: pointer;
 }
 
-.side_bar_option3 {
+.sideBarOption3 {
 	margin-top: 20px;
 	margin-right: 1px;
 	margin-bottom: 10px;
-	text-transform: capitalize;
 	color: black;
 	margin-left: 63px;
 	padding: 10px;
@@ -159,50 +158,58 @@ nav ul li:hover {
 
 }
 
-.side_bar_option4 {
+.sideBarOption4 {
 	display: flex;
 	align-items: center;
-	height: 40px;
 	padding: 0 10px;
 	margin-left: 40px;
 	color: #818181;
 	cursor: pointer;
 }
 
-.side_bar_option4 span {
+.sideBarOption4 span {
 	margin-left: 5px;
 	font-size: 15px;
 }
 
-.side_bar_option5 {
+.sideBarOption5 {
 	display: flex;
 	align-items: center;
-	height: 40px;
 	padding: 0 10px;
 	margin-left: 35px;
 	color: #818181;
 	cursor: pointer;
 }
 
-.side_bar_option5 .material-symbols-outlined {
+.sideBarOption5 .material-symbols-outlined {
 	color: orange;
 }
 
-.side_bar_option :hover {
+.sideBarOption :hover {
 	color: black;
 }
 
-.side_bar_option5 :hover {
+.sideBarOption5 :hover {
 	color: black;
+}
+
+.sideBarOption6 {
+	align-items: center;
+	padding: 10px;
+	margin-top: 0px;
+	cursor: pointer;
+	color: black;
+	background-color: orangered;
+	color: white;
+	border-radius: 5px;
+	border-top: 2px solid white;
 }
 
 
 .card {
 	width: 130px;
-	height: 250px;
 	background-color: white;
 	border: 1px solid darkgray;
-	position: relative;
 	margin-top: 0px;
 	margin-left: 50px;
 	font-size: small;
@@ -210,43 +217,26 @@ nav ul li:hover {
 
 }
 
-.card-body {
+.cardBody {
 	padding: 1px;
 }
 
 .card img {
 	object-fit: contain;
-	height: 100px;
 	margin-left: 10px;
 	width: 100px;
-}
-
-.side_bar_option6 {
-	align-items: center;
-	height: 30px;
-	padding: 0 16px;
-	margin-top: 0px;
-	cursor: pointer;
-	color: black;
-	display: flex;
-	background-color: orangered;
-	font-family: Arial, Helvetica, sans-serif;
-	color: white;
-	border-radius: 5px;
-	border-top: 2px solid white;
 }
 
 
 /* listsetting */
 
 
-.listhead {
+.listHead {
 	flex: 1;
 	padding-left: 15px;
 }
 
-.listsetting {
-	position: sticky;
+.listSetting {
 	top: 0;
 	display: flex;
 	justify-content: space-between;
@@ -257,16 +247,18 @@ nav ul li:hover {
 
 }
 
-.listsettingleft {
+.listSettingLeft img {
+	width: 110px;
+}
+
+.listSettingLeft {
 	box-shadow: 1px 0px 5px -1px rgb(220, 225, 228);
-	width: 140px;
-	height: 140px;
+	width: 110px;
 }
 
 .box {
 	width: 400px;
-	padding-right: 100px;
-	/* margin: 20px; */
+	padding-right: 200px;
 	margin-right: 480px;
 
 
@@ -276,12 +268,12 @@ nav ul li:hover {
 	margin-top: 15px;
 	/* margin-right: 100px; */
 	padding-right: 100px;
-	font-weight: 540;
-	font-size: xx-large;
-	/* padding-left: 15px; */
+	font-weight: 50;
+	font-size: 40px;
+
 }
 
-.cakedes {
+.cakeDesign {
 	font-size: 12px;
 	font-weight: 400;
 	margin-right: 20px;
@@ -292,35 +284,29 @@ nav ul li:hover {
 
 }
 
-.namebodyopt {
+.nameBodyOption {
 	display: flex;
 	align-items: center;
-	height: 40px;
-	padding: 0 10px;
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 20px;
 	cursor: pointer;
 	color: grey;
-	margin-left: -10px;
+	margin-left: 3px;
 	margin-top: 5px;
 }
 
-.locbodyopt {
+.localBodyOption {
 	display: flex;
 	align-items: center;
-	height: 40px;
-	padding: 10px 10px;
+
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 20px;
 	cursor: pointer;
 	color: grey;
-	margin-left: -10px;
-	margin-top: -15px;
 }
 
-.locbodyopt img {
+.localBodyOption img {
 	width: 16px;
-	height: 16px;
 	margin-top: 10px;
 	margin-left: 5px;
 }
@@ -330,7 +316,7 @@ nav ul li:hover {
 	cursor: pointer;
 }
 
-.listsection {
+.listSection {
 	display: flex;
 }
 
@@ -410,34 +396,25 @@ nav ul li:hover {
 
 }
 
-.statsfirst {
+.statsFirst {
 	margin-top: 20px;
 }
 
 .stats {
-
-	width: 150px;
-	height: 230px;
-	padding-right: 100px;
-	margin-right: 480px;
 	border: 1px solid rgba(128, 128, 128, 0.2);
 	border-radius: 5px;
-	margin-bottom: 40px;
+	margin-bottom: 150px;
 
 }
 
-.h2 {
+h2 {
 	padding-top: 12px;
 }
 
 .numbers {
 	display: flex;
 	align-items: center;
-	height: 40px;
-	padding: 0 5px;
-	padding-left: 10px;
-	border-top-right-radius: 20px;
-	border-bottom-left-radius: 20px;
+	padding: 5px;
 	cursor: pointer;
 	margin-left: 10px;
 	margin-top: 5px;
@@ -447,41 +424,45 @@ nav ul li:hover {
 	margin-left: 10px;
 }
 
-.stat_text {
+.aboutUser {
+	padding-left: 10px;
+	margin-left: 70px
+}
+
+.statUser {
 	display: flex;
-	align-items: center;
-	height: 40px;
-	padding: 5px 5px;
-	border-top-right-radius: 20px;
-	border-bottom-left-radius: 20px;
+}
+
+.statText {
+	display: flex;
+	padding: 0px 10px;
 	cursor: pointer;
 	margin-left: 10px;
-	margin-top: -15px;
 	color: #818181;
 	font-size: 13px;
 }
 
-.com {
-	margin-top: 50px;
+.communities {
+	margin-top: 30px;
 	font-weight: 60;
 }
 
-.com1 {
+.communities1 {
 	margin-left: 40px;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 10;
 	color: #818181;
 }
 
-.com1 img {
-	height: 18px;
+.communities1 img {
+	width: 18px;
 }
 
 .community img {
-	height: 24px;
+	width: 24px;
 }
 
-.commopt {
+.communityOption {
 	font-weight: 10;
 }
 
@@ -491,25 +472,20 @@ nav ul li:hover {
 
 .community {
 	width: 250px;
-	height: 150px;
-	padding-right: 50px;
-	margin-right: 480px;
+	margin-right: 108px;
 	border: 1px solid rgba(128, 128, 128, 0.2);
 	border-radius: 5px;
 	color: #0063bf;
-
+	margin-top: 10px;
 }
 
 .collective {
-	position: relative;
-	top: -50px;
 	width: 200px;
-	padding: 5px;
 	padding-right: 50px;
-	margin-right: 480px;
-	border: 1px solid rgba(128, 128, 128, 0.2);
+	margin-right: 10px;
+	border: 1px solid rgba(128, 128, 128, 0.5);
 	border-radius: 5px;
-	margin-top: 50px;
+	margin-top: 10px;
 }
 
 .collect {
@@ -530,14 +506,6 @@ nav ul li:hover {
 	margin-left: 50px;
 }
 
-.aboutuser {
-	padding-left: 10px;
-}
-
-.statuser {
-	display: flex;
-}
-
 .badges img {
 	width: 50px;
 	height: 50px;
@@ -548,8 +516,8 @@ nav ul li:hover {
 	padding-top: 10px;
 }
 
-.abspace {
-	padding-right: 250px;
+.aboutSpace {
+	padding-right: 200px;
 }
 
 .a:link {
@@ -562,9 +530,7 @@ a:visited {
 }
 
 
-.aboutuser {
-	margin-left: -430px;
-}
+.aboutUser {}
 
 .info {
 	padding-top: 10px;
@@ -579,11 +545,7 @@ a:visited {
 	padding-top: 10px;
 }
 
-.community {
-
-
-	margin-top: 10px;
-}
+.community {}
 
 /*badages*/
 .badges {
@@ -592,11 +554,9 @@ a:visited {
 }
 
 .gold {
-	width: 250px;
 	padding-right: 10px;
 	padding-bottom: 40px;
 	margin-right: 20px;
-	margin-left: -430px;
 	border: 1px solid rgba(128, 128, 128, 0.2);
 	border-radius: 5px;
 
@@ -617,7 +577,7 @@ a:visited {
 	cursor: pointer;
 }
 
-.gold .badgedet {
+.gold .badgeDetails {
 	margin-left: 70px;
 	position: relative;
 	top: -20px;
@@ -679,11 +639,11 @@ a:visited {
 
 }
 
-.commbadge {
+.communityBadge {
 	display: flex;
 }
 
-.commspace {
+.communitiesSpace {
 	padding-right: 110px;
 }
 
@@ -692,15 +652,80 @@ a:visited {
 	padding-right: 10px;
 }
 
-.badgedet {
+.badgeDetails {
 	padding-top: 30px;
 	margin-left: -30px;
 	font-size: 15px;
 }
 
 .duty {
-	position: relative;
-	left: 10px;
+	font-weigth: light;
+}
+
+.topTags {
+	width: 800px;
+	height: 50px;
+	border: 1px solid rgb(221, 225, 221);
+	/ padding-bottom: 205px;/ / margin: 10px;/ margin-left: 300px;
+	margin-top: 5px;
+	border-radius: 5px 5px 1px 1px;
+	display: flex;
+
+}
+
+.toptagNumber1 {
+	margin-top: 12px;
+	margin-left: 250px;
+	font-weight: 100;
+}
+
+.topTagScore1 {
+	margin-top: 16px;
+	margin-left: 3px;
+	font-size: small;
+	color: rgb(96, 95, 93);
+	font-weight: 100;
+}
+
+.topTagNumber2 {
+	margin-top: 12px;
+	margin-left: 65px;
+	font-weight: 100;
+}
+
+.topTagScore2 {
+	margin-top: 16px;
+	margin-left: 3px;
+	font-size: small;
+	color: rgb(96, 95, 93);
+	font-weight: 100;
+}
+
+
+.topTagNumber3 {
+
+	margin-top: 12px;
+
+	margin-left: 95px;
+
+	font-weight: 100;
+
+}
+
+
+
+.topTagScore3 {
+
+	margin-top: 16px;
+
+	margin-left: 3px;
+
+	font-size: small;
+
+	color: rgb(96, 95, 93);
+
+	font-weight: 100;
+
 }
 
 /*badges ending*/
