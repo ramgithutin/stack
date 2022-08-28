@@ -900,28 +900,29 @@ a:visited {
 	margin-left: 300px;
 	border-radius: 5px 5px 1px 1px;
 	display: flex;
+	align-items: center;
 	padding:10px;
 }
 .topPostNumber1 {
-	margin-top: 12px;
+
 	margin-left: 10px;
 	border: 1px solid rgb(221, 225, 221);
-	font-weight: 100;
+	font-weight: 400;
 }
 
 .topPostText {
-	margin-top: 16px;
-	margin-left: 3px;
+
+	margin-left: 12px;
 	font-size: small;
-	color: rgb(96, 95, 93);
-	font-weight: 100;
+    color: #3498DB;
+	font-weight: 400;
 }
 .topPostDate{
-	margin-top: 16px;
+
 	margin-left: 3px;
 	font-size: small;
 	color: rgb(96, 95, 93);
-	font-weight: 100;
+	font-weight: 400;
 }
 /*second set of top post*/
 .topPostList2{
@@ -930,27 +931,27 @@ a:visited {
 	margin-left: 300px;
 	display: flex;
 	padding:10px;
+	align-items:center;
 }
 .topPost2Number1 {
-	margin-top: 12px;
+
 	border: 1px solid rgb(221, 225, 221);
 	margin-left: 10px;
-	font-weight: 100;
+	font-weight: 400;
 }
 
+
 .topPost2Text {
-	margin-top: 16px;
-	margin-left: 3px;
+	margin-left: 12px;
 	font-size: small;
-	color: rgb(96, 95, 93);
-	font-weight: 100;
+    color: #3498DB;
+	font-weight: 400;
 }
 .topPost2Date {
-	margin-top: 16px;
 	margin-left: 3px;
 	font-size: small;
 	color: rgb(96, 95, 93);
-	font-weight: 100;
+	font-weight: 400;
 }
 /*third*/
 .topPostList3 {
@@ -960,34 +961,61 @@ a:visited {
 	border-radius: 1px 1px 5px 5px;
 	display: flex;
 	padding:10px;
+	align-items: center;
 }
 .topPost3Number1 {
-	margin-top: 12px;
 	margin-left: 10px;
 	border: 1px solid rgb(221, 225, 221);
-	font-weight: 100;
+	font-weight: 400;
 }
 
 .topPost3Text {
-	margin-top: 16px;
-	margin-left: 3px;
+	margin-left: 12px;
+
 	font-size: small;
-	color: rgb(96, 95, 93);
-	font-weight: 100;
+    color: #3498DB;
+	font-weight: 400;
 }
 .topPost3Date {
-	margin-top: 16px;
+	
 	margin-left: 3px;
 	font-size: small;
 	color: rgb(96, 95, 93);
-	font-weight: 100;
+	font-weight: 400;
 }
+.topPost2Number2 {
+
+	border: 1px solid rgb(221, 225, 221);
+	margin-left: 10px;
+	font-weight: 400;
+}
+.topPostNumber2 {
+	
+	border: 1px solid rgb(221, 225, 221);
+	margin-left: 10px;
+	font-weight: 400;
+}
+.topPost3Number2 {
+	
+	border: 1px solid rgb(221, 225, 221);
+	margin-left: 10px;
+	font-weight: 400;
+}
+
+
 /*meta post*/
 .topMetaPost{
 	font-size:20px;
 	font-weight:400;
 	margin-left:300px;
 	margin-top:20px;
+}
+.metaTopPost{
+	display: flex;
+	align-items: flex-end;
+}
+.metaTop{
+	margin-left: 600px;
 }
 /* network area*/
 .network{
@@ -1000,12 +1028,55 @@ a:visited {
 	margin-left:500px;
 	margin-top:20px;
 }
+
 /*footrt*/
-.footer {
-	background-color: black;
-	height: 200px;
-	width: 100%;
-	position: relative;
-	float: left;
-	top: 300px;
+.footer{
+	margin-top: 20px;
+	background-color: #24262b;
+	padding: 10px;
 }
+.container{
+	margin: auto;
+}
+ul{
+	list-style: none;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: normal;
+}
+.footerStack{
+	padding: 0 15px;
+}
+.footerStack h4{
+	font-size:18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+}
+.footerStack h4::before{
+	content: '';
+	box-sizing: border-box;
+	width: 50px;
+}
+.footerStack ul li{
+	margin-bottom: 10px;
+	color: #bbbbbb;
+}
+.footerStack ul li :hover{
+	color: #ffffff;
+}
+.row h5{
+	color: #bbbbbb;
+	margin-left: 10px;
+	font-weight: 300;
+}
+.row img{
+	width: 25px;
+	margin-left: 20px;
+}/*
+@media(max-width:767px){
+
+}*/
