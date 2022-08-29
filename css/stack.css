@@ -403,6 +403,8 @@ nav ul li h3:hover {
 
 .statsFirst {
 	margin-top: 20px;
+	font-weight: 500;
+
 }
 
 .stats {
@@ -420,7 +422,6 @@ h2 {
 	display: flex;
 	align-items: center;
 	padding: 5px;
-	cursor: pointer;
 	margin-left: 10px;
 	margin-top: 5px;
 }
@@ -441,6 +442,14 @@ h2 {
 .statText {
 	display: flex;
 	padding: 0px 10px;
+	margin-left: 10px;
+	color: #818181;
+	font-size: 13px;
+}
+
+.statText1 {
+	display: flex;
+	padding: 0px 10px;
 	cursor: pointer;
 	margin-left: 10px;
 	color: #818181;
@@ -449,7 +458,7 @@ h2 {
 
 .communities {
 	margin-top: 30px;
-	font-weight: 60;
+	font-weight: 400;
 }
 
 .communities1 {
@@ -464,7 +473,8 @@ h2 {
 }
 
 .community img {
-	width: 24px;
+	width: 17px;
+	margin-left: 10px;
 }
 
 .communityOption {
@@ -480,14 +490,19 @@ h2 {
 	margin-right: 108px;
 	border: 1px solid rgba(128, 128, 128, 0.2);
 	border-radius: 5px;
-	color: #0063bf;
 	margin-top: 10px;
 	margin-bottom: 90px;
+}
+
+.communityOption {
+	color: #0063bf;
+	cursor: pointer
 }
 
 .collective {
 	width: 200px;
 	padding: 10px;
+	cursor: pointer;
 	margin-right: 10px;
 	border: 1px solid rgba(128, 128, 128, 0.5);
 	border-radius: 5px;
@@ -517,7 +532,7 @@ h2 {
 .employee {
 	font-size: 12px;
 	font-weight: 400;
-	margin-left2px;
+	margin-left: 2px;
 }
 
 
@@ -542,7 +557,7 @@ a:visited {
 }
 
 .info1 {
-	padding -top: 10px;
+	padding-top: 10px;
 	margin-top: 30px;
 }
 
@@ -560,8 +575,9 @@ a:visited {
 
 .badgesView {
 
-	margin-left: 500px;
-	font-size: 19px;
+	margin-left: 545px;
+	font-size: 13px;
+	cursor: pointer;
 
 }
 
@@ -571,12 +587,45 @@ a:visited {
 	padding-left: 10px;
 }
 
+.dotGold {
+	color: #ffd700;
+	font-size: 18px;
+}
+
+.dotGold1 {
+	color: #ffd700;
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+.dotSilver {
+	color: #c0c0c0;
+	font-size: 18px;
+}
+
+.dotBronze {
+	color: #d1a684;
+	font-size: 18px;
+}
+
 .goldBorder {
 	padding: 10px;
 	border: 1px solid rgba(128, 128, 128, 0.2);
 	margin-right: 30px;
 	margin-bottom: 90px;
 	width: max-content;
+}
+
+.goldItem {
+	margin: 3px;
+	border: 1px solid transparent;
+	color: #737383;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.goldItem:hover {
+	color: black;
 }
 
 .badgeDetails {
@@ -689,7 +738,7 @@ a:visited {
 	border-radius: 5px 5px 1px 1px;
 	display: flex;
 	padding: 10px;
-
+	align-items: center;
 }
 
 .topTagTitle {
@@ -700,15 +749,15 @@ a:visited {
 }
 
 .topTagView {
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 100;
 	margin-left: 640px;
-	margin-top: 19px;
+	margin-top: 24px;
 }
 
 .topTagNumber1 {
 	margin-top: 12px;
-	margin-left: 500px;
+	margin-left: 485px;
 	font-weight: 100;
 }
 
@@ -763,9 +812,13 @@ a:visited {
 }
 
 .topTags button {
-	color: blue;
-	background-color: #6495ED22;
-	border: none;
+
+	color: #2c5ca2;
+	background-color: #e1ecf4;
+	border: hidden;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 4px 5px;
 }
 
 /*second*/
@@ -775,18 +828,24 @@ a:visited {
 	margin-left: 300px;
 	display: flex;
 	padding: 10px;
+	align-items: center;
 }
 
 .topTag2Number1 {
 	margin-top: 12px;
-	margin-left: 500px;
+	margin-left: 484px;
 	font-weight: 100;
 }
 
 .topTags2 button {
-	color: blue;
-	background-color: #6495ED22;
-	border: none;
+
+	color: #2c5ca2;
+	background-color: #e1ecf4;
+	border: hidden;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 4px 5px;
+
 }
 
 .topTag2Score1 {
@@ -817,7 +876,6 @@ a:visited {
 	margin-top: 12px;
 	margin-left: 12px;
 	font-weight: 100;
-
 }
 
 .topTags2centre1 {
@@ -847,6 +905,7 @@ a:visited {
 	display: flex;
 	padding: 10px;
 	border-radius: 1px 1px 5px 5px;
+	align-items: center;
 }
 
 .topTag3Number1 {
@@ -856,9 +915,12 @@ a:visited {
 }
 
 .topTags3 button {
-	color: blue;
-	background-color: #6495ED22;
-	border: none;
+	color: #2c5ca2;
+	background-color: #e1ecf4;
+	border: hidden;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 4px 5px;
 }
 
 .topTag3Score1 {
@@ -957,12 +1019,14 @@ a:visited {
 
 .topPostQuestion {
 	color: blue;
+	cursor: pointer;
 }
 
 .topPostMiddle {
 	display: flex;
-	margin-left: 210px;
+	margin-left: 280px;
 	font-size: x-small;
+
 }
 
 .topPostRight {
@@ -978,21 +1042,27 @@ a:visited {
 .topPostMiddle1 {
 	border: 1px solid rgb(221, 225, 221);
 	padding: 5px;
+	background-color: #e6e6e6;
+	cursor: pointer;
 }
 
 .topPostMiddle2 {
 	border: 1px solid rgb(221, 225, 221);
 	padding: 5px;
+	cursor: pointer;
 }
 
 .topPostRight1 {
 	border: 1px solid rgb(221, 225, 221);
 	padding: 5px;
+	background-color: #e6e6e6;
+	cursor: pointer;
 }
 
 .topPostRight2 {
 	border: 1px solid rgb(221, 225, 221);
 	padding: 5px;
+	cursor: pointer;
 }
 
 .topPostList {
@@ -1010,10 +1080,14 @@ a:visited {
 	margin-left: 10px;
 	border: 1px solid rgb(221, 225, 221);
 	font-weight: 400;
+	background-color: #5EBA7D;
+	font-size: 15px;
+	color: white;
+	border-color: rgb(182, 187, 189);
 }
 
 .topPostText {
-
+	cursor: pointer;
 	margin-left: 12px;
 	font-size: small;
 	color: #3498DB;
@@ -1043,6 +1117,9 @@ a:visited {
 	border: 1px solid rgb(221, 225, 221);
 	margin-left: 10px;
 	font-weight: 400;
+	background-color: #5EBA7D;
+	font-size: 15px;
+	color: white;
 }
 
 
@@ -1051,6 +1128,7 @@ a:visited {
 	font-size: small;
 	color: #3498DB;
 	font-weight: 400;
+	cursor: pointer;
 }
 
 .topPost2Date2 {
@@ -1096,7 +1174,7 @@ a:visited {
 }
 
 .topPost2Date8 {
-	margin-left: 253px;
+	margin-left: 282px;
 	font-size: small;
 	color: rgb(96, 95, 93);
 	font-weight: 400;
@@ -1107,6 +1185,16 @@ a:visited {
 	font-size: small;
 	color: rgb(96, 95, 93);
 	font-weight: 400;
+}
+
+.topPost2Number2 {
+	margin-left: 10px;
+	border: 1px solid rgb(221, 225, 221);
+	font-weight: 300;
+	font-size: 15px;
+	border-color: rgb(182, 187, 189);
+	color: rgb(52, 52, 54);
+	background-color: rgba(246, 246, 246, 0.993);
 }
 
 /*third*/
@@ -1124,11 +1212,15 @@ a:visited {
 	margin-left: 10px;
 	border: 1px solid rgb(221, 225, 221);
 	font-weight: 400;
+	background-color: #5EBA7D;
+	font-size: 15px;
+	color: white;
+	border-color: rgb(182, 187, 189);
 }
 
 .topPost3Text {
 	margin-left: 12px;
-
+	cursor: pointer;
 	font-size: small;
 	color: #3498DB;
 	font-weight: 400;
@@ -1142,25 +1234,26 @@ a:visited {
 	font-weight: 400;
 }
 
-.topPost2Number2 {
-
-	border: 1px solid rgb(221, 225, 221);
-	margin-left: 10px;
-	font-weight: 400;
-}
 
 .topPostNumber2 {
-
+	font-size: 15px;
 	border: 1px solid rgb(221, 225, 221);
 	margin-left: 10px;
-	font-weight: 400;
+	font-weight: 300;
+	border-color: rgb(182, 187, 189);
+	color: rgb(52, 52, 54);
+	background-color: rgba(246, 246, 246, 0.993);
 }
 
 .topPost3Number2 {
 
 	border: 1px solid rgb(221, 225, 221);
 	margin-left: 10px;
-	font-weight: 400;
+	font-weight: 300;
+	font-size: 15px;
+	border-color: rgb(182, 187, 189);
+	color: rgb(52, 52, 54);
+	background-color: rgba(246, 246, 246, 0.993);
 }
 
 
@@ -1172,13 +1265,25 @@ a:visited {
 	margin-top: 20px;
 }
 
+.metaTopPost img {
+	margin-top: 20px;
+}
+
 .metaTopPost {
 	display: flex;
 	align-items: flex-end;
 }
 
 .metaTop {
-	margin-left: 600px;
+	margin-left: 590px;
+	display: flex;
+}
+
+.metaLeft {
+	margin: 10px;
+	margin-top: 19px;
+	font-weight: 300;
+
 }
 
 /* network area*/
@@ -1212,7 +1317,7 @@ ul {
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: normal;
+	justify-content: space-between;
 }
 
 .footerStack {
@@ -1220,8 +1325,9 @@ ul {
 }
 
 .footerStack h4 {
-	font-size: 18px;
-	color: #ffffff;
+	cursor: pointer;
+	font-size: 15px;
+	color: #babfc4;
 	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
@@ -1235,20 +1341,34 @@ ul {
 
 .footerStack ul li {
 	margin-bottom: 10px;
-	color: #bbbbbb;
+	color: #9199a1;
+	font-size: 13px;
+	cursor: pointer;
 }
 
-.footerStack ul li :hover {
-	color: #ffffff;
+.footerStack ul :hover {
+	color: #bbbbbb;
+
+}
+
+.social {
+	display: flex;
+	cursor: pointer;
+}
+
+.socialNetwork2 {
+	margin-top: 280px;
+
 }
 
 .row h5 {
-	color: #bbbbbb;
+	color: #babfc4;
 	margin-left: 10px;
 	font-weight: 300;
 }
 
 .row img {
+	cursor: pointer;
 	width: 25px;
 	margin-left: 20px;
 }
