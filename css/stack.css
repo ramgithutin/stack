@@ -24,17 +24,13 @@ body {
 }
 
 .headerLeft img {
-	object-fit: contain;
 	width: 140px;
 	margin-left: 40px;
 }
 
 .headerLeft {
-	display: flex;
 	align-items: center;
-	padding: 5px;
 	cursor: pointer;
-	padding: 1px;
 	display: flex;
 }
 
@@ -61,7 +57,6 @@ body {
 
 
 nav ul li {
-	display: flex;
 	margin-left: 20px;
 	list-style-type: none;
 	width: 100px;
@@ -206,7 +201,6 @@ nav ul li h3:hover {
 	padding: 10px;
 	margin-top: 0px;
 	cursor: pointer;
-	color: black;
 	background-color: orangered;
 	color: white;
 	border-radius: 5px;
@@ -230,19 +224,12 @@ nav ul li h3:hover {
 }
 
 .card img {
-	object-fit: contain;
 	margin-left: 10px;
 	width: 100px;
 }
 
 
 /* listsetting */
-
-
-.listHead {
-	flex: 1;
-	padding-left: 15px;
-}
 
 .listSetting {
 	top: 0;
@@ -264,7 +251,7 @@ nav ul li h3:hover {
 
 .name {
 	margin-top: 15px;
-	/* margin-right: 100px; */
+	margin-left: 10px; 
 	padding-right: 100px;
 	font-weight: 50;
 	font-size: 40px;
@@ -274,7 +261,6 @@ nav ul li h3:hover {
 .cakeDesign {
 	font-size: 12px;
 	font-weight: 400;
-	margin-right: 20px;
 	color: gray;
 	padding-left: 5px;
 	margin-right: 10px;
@@ -292,8 +278,6 @@ nav ul li h3:hover {
 .nameBodyOption {
 	display: flex;
 	align-items: center;
-	border-top-right-radius: 20px;
-	border-bottom-left-radius: 20px;
 	cursor: pointer;
 	color: grey;
 	margin-left: 3px;
@@ -303,9 +287,6 @@ nav ul li h3:hover {
 .localBodyOption {
 	display: flex;
 	align-items: center;
-
-	border-top-right-radius: 20px;
-	border-bottom-left-radius: 20px;
 	cursor: pointer;
 	color: grey;
 }
@@ -327,7 +308,6 @@ nav ul li h3:hover {
 
 .profile {
 	margin-left: 10px;
-	text-transform: capitalize;
 	color: rgb(253, 250, 250);
 	padding: 7px;
 	border-radius: 30px;
@@ -348,7 +328,6 @@ nav ul li h3:hover {
 
 .profile:hover {
 	margin-left: 10px;
-	text-transform: capitalize;
 	font-weight: 300;
 	color: rgb(247, 244, 244);
 	padding: 7px;
@@ -365,7 +344,6 @@ nav ul li h3:hover {
 
 .about {
 	margin-left: 10px;
-	text-transform: capitalize;
 	color: gray;
 	padding: 7px;
 	border-radius: 30px;
@@ -386,7 +364,6 @@ nav ul li h3:hover {
 
 .about:hover {
 	margin-left: 10px;
-	text-transform: capitalize;
 	font-weight: 300;
 	color: rgb(32, 31, 31);
 	padding: 7px;
@@ -1327,7 +1304,6 @@ ul {
 	cursor: pointer;
 	font-size: 15px;
 	color: #babfc4;
-	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
 }
