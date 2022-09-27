@@ -258,7 +258,7 @@ nav ul li h3:hover {
 }
 
 .listSettingLeft {
-	box-shadow: 1px 0px 5px -1px rgb(220, 225, 228);
+	box-shadow: 1px 0px 5px 1px rgb(220, 225, 228);
 	width: 110px;
 }
 
