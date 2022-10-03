@@ -12,7 +12,7 @@
 .dFlex{
 	display:flex;
 }
-?*cursor pointer*/
+/*cursor pointer*/
 .pointer{
 	cursor: pointer;
 }
@@ -20,9 +20,12 @@
 .header {
 	background-color: #f8f9f9;
 	align-items: center;
-	border-bottom: 3px solid #e7e7e7;
+	border-bottom: 2px solid #e7e7e7;
 	border-top: 3px solid #f48225;
 	padding: 5px 0px 6px 9px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
 }
 
 .headerLeft img {
@@ -36,7 +39,8 @@
 
 .headerMiddle {
 	margin-left: 24px;
-	width: 34%;
+	width: 52%;
+	padding: 5px;
     	border: solid 1px #babfc4;
 }
 
@@ -46,7 +50,7 @@
 }
 
 
-.dFlex span {
+.pointer span {
 	margin-left: 22px;
 	color: gray;
 	align-items: center;
@@ -54,29 +58,35 @@
 	font-size:13px;
 }
 
-.dFlex span:hover {
+.pointer span:hover {
 
 	background-color: #969a9e44;
 	border-radius: 10px;
 	align-items: center;
 }
 
+.log{
+ 	margin:0px 0px 0px 17px;
+}
+
 .log button {
-	padding: 5px;
+	font-size: 13px;
+	padding: 8px;
 	cursor: pointer;
-	width: 80px;
-	color: blue;
-	background-color: lightblue;
-	border-color: blue;
+	width: 59px;
+	color: #399bd2;
+	background-color: #e1ecf4;
+	border: solid 1px #7aa7c7;
 	border-radius: 5px;
 }
 
 .sign button {
 	font-size: 15px;
-	width: 80px;
-	color: white;
-	background-color: blue;
-	padding: 5px;
+	width: 68px;
+	color: #ffffff;
+	background-color: #0a95ff;
+	padding: 7px;
+	border:none;
 	cursor: pointer;
 	border-radius: 5px;
 }
@@ -92,10 +102,14 @@
 /*main body*/
 .mainBody {
 	display: flex;
+	padding-top:52px;
 }
 
 /*side bar*/
 .sideBar {
+	position:sticky;
+	height: 600px;
+	top:54px;
 	overflow-y: scroll;
 }
 
@@ -105,6 +119,7 @@
 	padding: 10px;
 	margin-top: 0px;
 	cursor: pointer;
+	font-size:13px;
 	margin-left: 40px;
 	color: #818181;
 }
@@ -112,6 +127,7 @@
 .sideBarOption1 {
 	display: flex;
 	margin-left: 40px;
+	font-size:11px;
 	align-items: center;
 	padding: 10px;
 	color: #818181;
@@ -128,12 +144,11 @@
 }
 
 .sideBarOption3 {
-	margin-top: 20px;
-	margin-right: 1px;
-	margin-bottom: 10px;
+	margin:20px 1px 10px 63px;
 	color: black;
-	margin-left: 63px;
 	padding: 10px;
+	font-size:13px;
+	font-weight:700;
 	background-color: #81818122;
 	width: 100px;
 	display: flex;
@@ -213,7 +228,6 @@
 /* listsetting */
 
 .listSetting {
-	top: 0;
 	display: flex;
 	border-bottom: 1px whitesmoke;
 	background-color: white;
@@ -221,21 +235,23 @@
 
 }
 
+
 .listSettingLeft img {
-	width: 110px;
+	width: 135px;
 }
 
 .listSettingLeft {
 	box-shadow: 1px 0px 5px 1px rgb(220, 225, 228);
-	width: 110px;
+	width: 135px;
+	margin: 14px 0px 0px 22px;
 }
 
 .name {
 	margin-top: 15px;
 	margin-left: 10px; 
 	padding-right: 100px;
-	font-weight: 50;
-	font-size: 40px;
+	font-weight: 400;
+	font-size: 34px;
 
 }
 
@@ -261,7 +277,7 @@
 	align-items: center;
 	cursor: pointer;
 	color: grey;
-	margin-left: 3px;
+	margin-left: 9px;
 	margin-top: 5px;
 }
 
@@ -270,6 +286,8 @@
 	align-items: center;
 	cursor: pointer;
 	color: grey;
+	margin-left: 4px;
+
 }
 
 .localBodyOption img {
@@ -288,7 +306,7 @@
 }
 
 .profile {
-	margin-left: 10px;
+	margin-left: 24px;
 	color: rgb(253, 250, 250);
 	padding: 7px;
 	border-radius: 30px;
@@ -308,10 +326,8 @@
 }
 
 .profile:hover {
-	margin-left: 10px;
 	font-weight: 300;
 	color: rgb(247, 244, 244);
-	padding: 7px;
 	border-radius: 30px;
 	background-color: rgb(216, 109, 22);
 	display: flex;
@@ -361,10 +377,9 @@
 
 .statsFirst {
 	margin-top: 20px;
-	font-weight: 500;
-
+	margin-left: 24px;
+	font-weight: 400;
 }
-
 .stats {
 	border: 1px solid rgba(128, 128, 128, 0.2);
 	border-radius: 5px;
