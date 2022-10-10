@@ -101,7 +101,6 @@
 
 /*main body*/
 .mainBody {
-	display: flex;
 	padding-top:52px;
 }
 
@@ -114,7 +113,6 @@
 }
 
 .sideBarOption {
-	display: flex;
 	align-items: center;
 	padding: 10px;
 	margin-top: 0px;
@@ -125,7 +123,6 @@
 }
 
 .sideBarOption1 {
-	display: flex;
 	margin-left: 40px;
 	font-size:11px;
 	align-items: center;
@@ -135,7 +132,6 @@
 }
 
 .sideBarOption2 {
-	display: flex;
 	align-items: center;
 	padding: 1px;
 	margin-left: 70px;
@@ -151,14 +147,12 @@
 	font-weight:700;
 	background-color: #81818122;
 	width: 100px;
-	display: flex;
 	border-right: 5px solid orange;
 	align-items: center;
 
 }
 
 .sideBarOption4 {
-	display: flex;
 	align-items: center;
 	padding: 0 10px;
 	margin-left: 40px;
@@ -172,7 +166,6 @@
 }
 
 .sideBarOption5 {
-	display: flex;
 	align-items: center;
 	padding: 0 10px;
 	margin-left: 35px;
@@ -228,7 +221,6 @@
 /* listsetting */
 
 .listSetting {
-	display: flex;
 	border-bottom: 1px whitesmoke;
 	background-color: white;
 	padding: 8px;
@@ -273,7 +265,6 @@
 }
 
 .nameBodyOption {
-	display: flex;
 	align-items: center;
 	cursor: pointer;
 	color: grey;
@@ -282,7 +273,6 @@
 }
 
 .localBodyOption {
-	display: flex;
 	align-items: center;
 	cursor: pointer;
 	color: grey;
@@ -297,12 +287,7 @@
 }
 
 .section {
-	display: flex;
 	cursor: pointer;
-}
-
-.listSection {
-	display: flex;
 }
 
 .profile {
@@ -311,7 +296,6 @@
 	padding: 7px;
 	border-radius: 30px;
 	background-color: rgb(250, 124, 6);
-	display: flex;
 	align-items: center;
 	cursor: pointer;
 	outline: none;
@@ -330,7 +314,6 @@
 	color: rgb(247, 244, 244);
 	border-radius: 30px;
 	background-color: rgb(216, 109, 22);
-	display: flex;
 	align-items: center;
 	cursor: pointer;
 	outline: none;
@@ -345,7 +328,6 @@
 	padding: 7px;
 	border-radius: 30px;
 	background-color: white;
-	display: flex;
 	align-items: center;
 	cursor: pointer;
 	outline: none;
@@ -366,7 +348,6 @@
 	padding: 7px;
 	border-radius: 30px;
 	background-color: rgb(230, 225, 225);
-	display: flex;
 	align-items: center;
 	cursor: pointer;
 	outline: none;
@@ -392,7 +373,6 @@ h2 {
 }
 
 .numbers {
-	display: flex;
 	align-items: center;
 	padding: 5px;
 	margin-left: 10px;
@@ -408,12 +388,8 @@ h2 {
 	margin-left: 70px
 }
 
-.statUser {
-	display: flex;
-}
 
 .statText {
-	display: flex;
 	padding: 0px 10px;
 	margin-left: 10px;
 	color: #818181;
@@ -421,7 +397,6 @@ h2 {
 }
 
 .statText1 {
-	display: flex;
 	padding: 0px 10px;
 	cursor: pointer;
 	margin-left: 10px;
@@ -491,10 +466,6 @@ h2 {
 	width: 50px;
 }
 
-.collective {
-	display: flex;
-}
-
 .google {
 	margin-top: 2px;
 	font-size: 20px;
@@ -540,10 +511,6 @@ a:visited {
 .community {}
 
 /*badages*/
-.badges {
-	display: flex;
-
-}
 
 .badgesView {
 
@@ -605,13 +572,6 @@ a:visited {
 	font-size: x-small;
 }
 
-.gold {
-	display: flex;
-}
-
-.communityBadge {
-	display: flex;
-}
 
 .communitiesSpace {
 	padding-right: 110px;
@@ -698,17 +658,11 @@ a:visited {
 
 /*badges ending*/
 /*tags starting*/
-
-.top {
-	display: flex;
-}
-
 .topTags {
 	width: 800px;
 	border: 1px solid rgb(221, 225, 221);
 	margin-left: 300px;
 	border-radius: 5px 5px 1px 1px;
-	display: flex;
 	padding: 10px;
 	align-items: center;
 }
@@ -798,7 +752,6 @@ a:visited {
 	width: 800px;
 	border: 1px solid rgb(221, 225, 221);
 	margin-left: 300px;
-	display: flex;
 	padding: 10px;
 	align-items: center;
 }
@@ -874,7 +827,6 @@ a:visited {
 	width: 800px;
 	border: 1px solid rgb(221, 225, 221);
 	margin-left: 300px;
-	display: flex;
 	padding: 10px;
 	border-radius: 1px 1px 5px 5px;
 	align-items: center;
@@ -972,7 +924,6 @@ a:visited {
 
 /*top post header*/
 .mainTopPostHeader {
-	display: flex;
 	align-items: center;
 }
 
@@ -995,20 +946,14 @@ a:visited {
 }
 
 .topPostMiddle {
-	display: flex;
 	margin-left: 280px;
 	font-size: x-small;
 
 }
 
 .topPostRight {
-	display: flex;
 	margin-left: 20px;
 	font-size: x-small;
-}
-
-.topPostDetails {
-	display: flex;
 }
 
 .topPostMiddle1 {
@@ -1042,7 +987,6 @@ a:visited {
 	border: 1px solid rgb(221, 225, 221);
 	margin-left: 300px;
 	border-radius: 5px 5px 1px 1px;
-	display: flex;
 	align-items: center;
 	padding: 10px;
 }
@@ -1079,7 +1023,6 @@ a:visited {
 	width: 800px;
 	border: 1px solid rgb(221, 225, 221);
 	margin-left: 300px;
-	display: flex;
 	padding: 10px;
 	align-items: center;
 }
@@ -1175,7 +1118,6 @@ a:visited {
 	border: 1px solid rgb(221, 225, 221);
 	margin-left: 300px;
 	border-radius: 1px 1px 5px 5px;
-	display: flex;
 	padding: 10px;
 	align-items: center;
 }
@@ -1242,13 +1184,11 @@ a:visited {
 }
 
 .metaTopPost {
-	display: flex;
 	align-items: flex-end;
 }
 
 .metaTop {
 	margin-left: 590px;
-	display: flex;
 }
 
 .metaLeft {
@@ -1260,7 +1200,6 @@ a:visited {
 
 /* network area*/
 .network {
-	display: flex;
 	align-items: center;
 }
 
@@ -1287,7 +1226,6 @@ ul {
 }
 
 .row {
-	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
@@ -1323,7 +1261,6 @@ ul {
 }
 
 .social {
-	display: flex;
 	cursor: pointer;
 }
 
