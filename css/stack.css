@@ -220,6 +220,11 @@
 
 /* listsetting */
 
+.profileHeading{
+	justify-content: space-between;
+
+}
+
 .listSetting {
 	border-bottom: 1px whitesmoke;
 	background-color: white;
@@ -258,10 +263,14 @@
 }
 
 .profileLeft {
-	margin-left: 190px;
-	border: 1px solid rgb(221, 225, 221);
-	padding: 5px;
-	margin-bottom: 100px;
+	margin: 18px 62px 0px 0px;
+}
+
+.profileBorder {
+	border: 1px solid #dde1dd;
+	padding: 6px 9px;
+	background-color: transparent;
+	color: #6a737c;
 }
 
 .nameBodyOption {
@@ -360,11 +369,18 @@
 	margin-top: 20px;
 	margin-left: 24px;
 	font-weight: 400;
+	font-size:21px;
+}
+
+.statsMargin{
+	    margin: 7px 0px 0px 22px;
 }
 .stats {
 	border: 1px solid rgba(128, 128, 128, 0.2);
 	border-radius: 5px;
-	margin-bottom: 150px;
+	margin-bottom: 78px;
+	width: 245px;
+	padding: 0px 0px 20px 0px;
 
 }
 
@@ -374,9 +390,10 @@ h2 {
 
 .numbers {
 	align-items: center;
-	padding: 5px;
+	padding: 2px 0px 1px 8px;
 	margin-left: 10px;
 	margin-top: 5px;
+	font-size:17px;
 }
 
 .stats .material {
@@ -385,12 +402,13 @@ h2 {
 
 .aboutUser {
 	padding-left: 10px;
-	margin-left: 70px
+	margin-left: 15px;
 }
 
 
 .statText {
-	padding: 0px 10px;
+	
+	padding: 3px 2px 4px 13px;
 	margin-left: 10px;
 	color: #818181;
 	font-size: 13px;
@@ -405,7 +423,8 @@ h2 {
 }
 
 .communities {
-	margin-top: 30px;
+	margin: 30px 0px 0px 25px;
+	font-size:21px;
 	font-weight: 400;
 }
 
@@ -417,7 +436,7 @@ h2 {
 }
 
 .communities1 img {
-	width: 18px;
+	width: 11px;
 }
 
 .community img {
@@ -480,7 +499,7 @@ h2 {
 
 
 .aboutSpace {
-	padding-right: 200px;
+	margin: 110px;
 }
 
 .a:link {
@@ -1279,4 +1298,7 @@ ul {
 	cursor: pointer;
 	width: 25px;
 	margin-left: 20px;
+}
+a {
+	color:#5274d6;
 }
