@@ -16,6 +16,10 @@
 .pointer{
 	cursor: pointer;
 }
+/*align-items center*/
+.itemCenter{
+	align-items:center;
+}
 /* header */
 .header {
 	background-color: #f8f9f9;
@@ -424,8 +428,9 @@ h2 {
 
 .communities {
 	margin: 30px 0px 0px 25px;
-	font-size:21px;
+	font-size: 21px;
 	font-weight: 400;
+	align-items: end;
 }
 
 .communities1 {
@@ -455,13 +460,15 @@ h2 {
 .community {
 	border: 1px solid rgba(128, 128, 128, 0.2);
 	border-radius: 5px;
-	margin: 0px 22px;
+	margin: 10px 22px;
+	width: 237px;
 }
 
-.community  div {
-	padding:10px;
+.padding {
+	padding:8px 4px;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .communityOption {
@@ -532,8 +539,13 @@ a:visited {
 
 /*badages*/
 
-.badgesView {
+.communityBadge{
+	flex: 1;
+	margin: 0px 0px 0px 44px;
+}
 
+.badgesView {
+	flex: 1;
 	margin-left: 545px;
 	font-size: 13px;
 	cursor: pointer;
@@ -568,9 +580,9 @@ a:visited {
 }
 
 .goldBorder {
-	padding: 10px;
+	width: 243px;
 	border: 1px solid rgba(128, 128, 128, 0.2);
-	margin: 0px 11px;
+	margin: 10px 12px;
 }
 
 .goldItem {
@@ -605,30 +617,10 @@ a:visited {
 	font-size: 15px;
 }
 
-.duty1 {
+.duty {
 	font-size: 10px;
-	margin-left: 70px;
 }
 
-.duty2 {
-	font-size: 10px;
-	margin-left: 30px;
-}
-
-.duty3 {
-	font-size: 10px;
-	margin-left: 100px;
-}
-
-.duty4 {
-	font-size: 10px;
-	margin-left: 95px;
-}
-
-.duty5 {
-	font-size: 10px;
-	margin-left: 30px;
-}
 
 .duty6 {
 	font-size: 10px;
@@ -957,7 +949,7 @@ a:visited {
 }
 
 .topPostQuestion {
-	color: blue;
+	color: #0074cc;
 	cursor: pointer;
 }
 
