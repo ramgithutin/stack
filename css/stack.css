@@ -8,22 +8,63 @@
 .material img {
 	width: 15px;
 }
+
 /* flex*/
-.dFlex{
-	display:flex;
+.dFlex {
+	display: flex;
 }
+
 /*cursor pointer*/
-.pointer{
+.pointer {
 	cursor: pointer;
 }
-/*align-items center*/
-.itemCenter{
-	align-items:center;
+
+.spaceBetween {
+	justify-content: space-between;
 }
+
+/*align-items center*/
+.itemCenter {
+	align-items: center;
+}
+
+.flex1 {
+	flex: 1;
+}
+
+.flexEnd {
+	justify-content: flex-end;
+}
+
+/* color*/
+.colorDate {
+	color: #606060;
+}
+
+/* font size*/
+.small {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.smallHigh {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.medium {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.mediumHigh {
+	font-size: 17px;
+	font-weight: 400;
+}
+
 /* header */
 .header {
 	background-color: #f8f9f9;
-	align-items: center;
 	border-bottom: 2px solid #e7e7e7;
 	border-top: 3px solid #f48225;
 	padding: 5px 0px 6px 9px;
@@ -45,7 +86,7 @@
 	margin-left: 24px;
 	width: 52%;
 	padding: 5px;
-    	border: solid 1px #babfc4;
+	border: solid 1px #babfc4;
 }
 
 .headerMiddle input {
@@ -54,29 +95,26 @@
 }
 
 
-.pointer span {
+.aboutHeader span {
 	margin-left: 22px;
 	color: gray;
 	align-items: center;
 	padding: 1px;
-	font-size:13px;
+	font-size: 13px;
 }
 
-.pointer span:hover {
+.aboutHeader span:hover {
 
 	background-color: #969a9e44;
 	border-radius: 10px;
-	align-items: center;
 }
 
-.log{
- 	margin:0px 0px 0px 17px;
+.log {
+	margin: 0px 0px 0px 17px;
 }
 
 .log button {
-	font-size: 13px;
 	padding: 8px;
-	cursor: pointer;
 	width: 59px;
 	color: #399bd2;
 	background-color: #e1ecf4;
@@ -85,13 +123,11 @@
 }
 
 .sign button {
-	font-size: 15px;
 	width: 68px;
 	color: #ffffff;
 	background-color: #0a95ff;
 	padding: 7px;
-	border:none;
-	cursor: pointer;
+	border: none;
 	border-radius: 5px;
 }
 
@@ -105,63 +141,54 @@
 
 /*main body*/
 .mainBody {
-	padding-top:52px;
+	padding-top: 52px;
 }
 
 /*side bar*/
 .sideBar {
-	position:sticky;
+	position: sticky;
 	height: 600px;
-	top:54px;
+	top: 54px;
 	overflow-y: scroll;
 }
 
 .sideBarOption {
-	align-items: center;
 	padding: 10px;
 	margin-top: 0px;
-	cursor: pointer;
-	font-size:13px;
 	margin-left: 40px;
 	color: #818181;
 }
 
 .sideBarOption1 {
 	margin-left: 40px;
-	font-size:11px;
-	align-items: center;
+	font-size: 11px;
 	padding: 10px;
 	color: #818181;
 
 }
 
 .sideBarOption2 {
-	align-items: center;
 	padding: 1px;
 	margin-left: 70px;
 	color: #818181;
-	cursor: pointer;
 }
 
 .sideBarOption3 {
-	margin:20px 1px 10px 63px;
+	margin: 20px 1px 10px 63px;
 	color: black;
 	padding: 10px;
-	font-size:13px;
-	font-weight:700;
+	font-size: 13px;
+	font-weight: 700;
 	background-color: #81818122;
 	width: 100px;
 	border-right: 5px solid orange;
-	align-items: center;
 
 }
 
 .sideBarOption4 {
-	align-items: center;
 	padding: 0 10px;
 	margin-left: 40px;
 	color: #818181;
-	cursor: pointer;
 }
 
 .sideBarOption4 span {
@@ -170,11 +197,9 @@
 }
 
 .sideBarOption5 {
-	align-items: center;
 	padding: 0 10px;
 	margin-left: 35px;
 	color: #818181;
-	cursor: pointer;
 }
 
 .sideBarOption5 .material {
@@ -190,10 +215,8 @@
 }
 
 .sideBarOption6 {
-	align-items: center;
 	padding: 10px;
 	margin-top: 0px;
-	cursor: pointer;
 	background-color: orangered;
 	color: white;
 	border-radius: 5px;
@@ -224,7 +247,7 @@
 
 /* listsetting */
 
-.profileHeading{
+.profileHeading {
 	justify-content: space-between;
 
 }
@@ -249,7 +272,7 @@
 
 .name {
 	margin-top: 15px;
-	margin-left: 10px; 
+	margin-left: 10px;
 	padding-right: 100px;
 	font-weight: 400;
 	font-size: 34px;
@@ -278,16 +301,12 @@
 }
 
 .nameBodyOption {
-	align-items: center;
-	cursor: pointer;
 	color: grey;
 	margin-left: 9px;
 	margin-top: 5px;
 }
 
 .localBodyOption {
-	align-items: center;
-	cursor: pointer;
 	color: grey;
 	margin-left: 4px;
 
@@ -299,36 +318,22 @@
 	margin-left: 5px;
 }
 
-.section {
-	cursor: pointer;
-}
-
 .profile {
 	margin-left: 24px;
 	color: rgb(253, 250, 250);
 	padding: 7px;
 	border-radius: 30px;
 	background-color: rgb(250, 124, 6);
-	align-items: center;
-	cursor: pointer;
 	outline: none;
 	border: none;
 
 }
 
-.profile h3 {
-	font-size: small;
-	font-weight: 400;
-
-}
 
 .profile:hover {
-	font-weight: 300;
 	color: rgb(247, 244, 244);
 	border-radius: 30px;
 	background-color: rgb(216, 109, 22);
-	align-items: center;
-	cursor: pointer;
 	outline: none;
 	border: none;
 	box-shadow: 0px 2px 2px -2px;
@@ -341,16 +346,8 @@
 	padding: 7px;
 	border-radius: 30px;
 	background-color: white;
-	align-items: center;
-	cursor: pointer;
 	outline: none;
 	border: none;
-
-}
-
-.about h3 {
-	font-size: small;
-	font-weight: 400;
 
 }
 
@@ -361,8 +358,6 @@
 	padding: 7px;
 	border-radius: 30px;
 	background-color: rgb(230, 225, 225);
-	align-items: center;
-	cursor: pointer;
 	outline: none;
 	border: none;
 	box-shadow: 0px 2px 2px -2px;
@@ -373,12 +368,13 @@
 	margin-top: 20px;
 	margin-left: 24px;
 	font-weight: 400;
-	font-size:21px;
+	font-size: 21px;
 }
 
-.statsMargin{
-	    margin: 7px 0px 0px 22px;
+.statsMargin {
+	margin: 7px 0px 0px 22px;
 }
+
 .stats {
 	border: 1px solid rgba(128, 128, 128, 0.2);
 	border-radius: 5px;
@@ -393,11 +389,10 @@ h2 {
 }
 
 .numbers {
-	align-items: center;
 	padding: 2px 0px 1px 8px;
 	margin-left: 10px;
 	margin-top: 5px;
-	font-size:17px;
+	font-size: 17px;
 }
 
 .stats .material {
@@ -411,7 +406,7 @@ h2 {
 
 
 .statText {
-	
+
 	padding: 3px 2px 4px 13px;
 	margin-left: 10px;
 	color: #818181;
@@ -420,7 +415,6 @@ h2 {
 
 .statText1 {
 	padding: 0px 10px;
-	cursor: pointer;
 	margin-left: 10px;
 	color: #818181;
 	font-size: 13px;
@@ -465,15 +459,12 @@ h2 {
 }
 
 .padding {
-	padding:8px 4px;
-	display: flex;
-	align-items: center;
+	padding: 8px 4px;
 	justify-content: space-between;
 }
 
 .communityOption {
 	color: #0063bf;
-	cursor: pointer;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 17px;
@@ -482,7 +473,6 @@ h2 {
 .collective {
 	width: 200px;
 	padding: 10px;
-	cursor: pointer;
 	margin-right: 10px;
 	border: 1px solid rgba(128, 128, 128, 0.5);
 	border-radius: 5px;
@@ -539,17 +529,12 @@ a:visited {
 
 /*badages*/
 
-.communityBadge{
-	flex: 1;
-	margin: 0px 0px 0px 44px;
+.communityBadge {
+	margin: 0px 0px 0px 29px;
 }
 
 .badgesView {
-	flex: 1;
-	margin-left: 545px;
-	font-size: 13px;
-	cursor: pointer;
-
+	color: #818181;
 }
 
 .badges img {
@@ -586,12 +571,12 @@ a:visited {
 }
 
 .goldItem {
-	margin: 3px;
+	font-size: 13px;
+	margin: 5px;
 	border: 1px solid transparent;
 	color: #737383;
 	border-radius: 4px;
-	cursor: pointer;
-	font-size: 11px
+	padding: 1px 4px;
 }
 
 .goldItem:hover {
@@ -617,83 +602,34 @@ a:visited {
 	font-size: 15px;
 }
 
-.duty {
-	font-size: 10px;
-}
-
-
-.duty6 {
-	font-size: 10px;
-	margin-left: 60px;
-}
-
-.duty7 {
-	font-size: 10px;
-	margin-left: 50px;
-}
-
-.duty8 {
-	font-size: 10px;
-	margin-left: 75px;
-}
-
-.duty9 {
-	font-size: 10px;
-	margin-left: 70px;
-}
-
-.duty10 {
-	font-size: 10px;
-	margin-left: 40px;
-}
-
-.duty11 {
-	font-size: 10px;
-	margin-left: 55px;
-}
-
-.duty12 {
-	font-size: 10px;
-	margin-left: 50px;
-}
-
-.duty13 {
-	font-size: 10px;
-	margin-left: 43px;
-}
-
-.duty14 {
-	font-size: 10px;
-	margin-left: 80px;
-}
 
 /*badges ending*/
 /*tags starting*/
 .topTags {
 	border: 1px solid rgb(221, 225, 221);
-	margin-left: 300px;
+	margin-left: 273px;
 	border-radius: 5px 5px 1px 1px;
-	padding: 10px;
-	align-items: center;
+	padding: 4px;
+	width: 800px;
 }
 
 .topTagTitle {
 	font-size: 20px;
+	flex: 1;
 	font-weight: 400;
-	margin-left: 300px;
 	margin-top: 20px;
 }
 
 .topTagView {
+	flex: 2;
 	font-size: 15px;
 	font-weight: 100;
-	margin-left: 640px;
-	margin-top: 24px;
+	margin: 24px 11px 0px 34px;
 }
 
 .topTagNumber1 {
 	margin-top: 12px;
-	margin-left: 485px;
+	margin-left: 467px;
 	font-weight: 100;
 }
 
@@ -747,37 +683,26 @@ a:visited {
 
 }
 
-.topTags button {
-
-	color: #2c5ca2;
-	background-color: #e1ecf4;
-	border: hidden;
-	border-radius: 3px;
-	cursor: pointer;
-	padding: 4px 5px;
-}
-
 /*second*/
 .topTags2 {
 	border: 1px solid rgb(221, 225, 221);
-	margin-left: 300px;
-	padding: 10px;
-	align-items: center;
+	margin-left: 273px;
+	width: 800px;
+	padding: 4px;
 }
 
 .topTag2Number1 {
 	margin-top: 12px;
-	margin-left: 484px;
+	margin-left: 467px;
 	font-weight: 100;
 }
 
-.topTags2 button {
+.button {
 
 	color: #2c5ca2;
 	background-color: #e1ecf4;
 	border: hidden;
 	border-radius: 3px;
-	cursor: pointer;
 	padding: 4px 5px;
 
 }
@@ -834,25 +759,16 @@ a:visited {
 /*third*/
 .topTags3 {
 	border: 1px solid rgb(221, 225, 221);
-	margin-left: 300px;
-	padding: 10px;
+	margin-left: 273px;
+	padding: 4px;
+	width: 800px;
 	border-radius: 1px 1px 5px 5px;
-	align-items: center;
 }
 
 .topTag3Number1 {
 	margin-top: 12px;
-	margin-left: 500px;
+	margin-left: 468px;
 	font-weight: 100;
-}
-
-.topTags3 button {
-	color: #2c5ca2;
-	background-color: #e1ecf4;
-	border: hidden;
-	border-radius: 3px;
-	cursor: pointer;
-	padding: 4px 5px;
 }
 
 .topTag3Score1 {
@@ -928,33 +844,29 @@ a:visited {
 	font-size: small;
 	color: rgb(96, 95, 93);
 	font-weight: 100;
-}s
-
-/*top post header*/
-.mainTopPostHeader {
-	align-items: center;
 }
 
+/*top post header*/
+
 .topPostHeader {
-	margin-left: 300px;
-	font-size: 20px;
-	font-weight: 200;
+	margin-left: 273px;
+	font-size: 21px;
+	font-weight: 400;
 	margin-top: 20px;
 }
 
 .topPostView {
-	margin-left: 300px;
+	margin-left: 273px;
 	font-size: medium;
 	font-weight: 100;
 }
 
 .topPostQuestion {
 	color: #0074cc;
-	cursor: pointer;
 }
 
 .topPostMiddle {
-	margin-left: 280px;
+	margin-left: 300px;
 	font-size: x-small;
 
 }
@@ -968,50 +880,43 @@ a:visited {
 	border: 1px solid rgb(221, 225, 221);
 	padding: 5px;
 	background-color: #e6e6e6;
-	cursor: pointer;
 }
 
 .topPostMiddle2 {
 	border: 1px solid rgb(221, 225, 221);
 	padding: 5px;
-	cursor: pointer;
 }
 
 .topPostRight1 {
 	border: 1px solid rgb(221, 225, 221);
 	padding: 5px;
 	background-color: #e6e6e6;
-	cursor: pointer;
 }
 
 .topPostRight2 {
 	border: 1px solid rgb(221, 225, 221);
 	padding: 5px;
-	cursor: pointer;
 }
 
 .topPostList {
 	width: 800px;
 	border: 1px solid rgb(221, 225, 221);
-	margin-left: 300px;
+	margin-left: 273px;
 	border-radius: 5px 5px 1px 1px;
-	align-items: center;
-	padding: 10px;
+	padding: 8px 4px;
 }
 
 .topPostNumber1 {
-
+	padding: 4px;
 	margin-left: 10px;
 	border: 1px solid rgb(221, 225, 221);
 	font-weight: 400;
 	background-color: #5EBA7D;
-	font-size: 15px;
 	color: white;
 	border-color: rgb(182, 187, 189);
 }
 
 .topPostText {
-	cursor: pointer;
 	margin-left: 12px;
 	font-size: small;
 	color: #3498DB;
@@ -1019,7 +924,6 @@ a:visited {
 }
 
 .topPostDate1 {
-
 	margin-left: 180px;
 	font-size: small;
 	color: rgb(96, 95, 93);
@@ -1030,19 +934,18 @@ a:visited {
 .topPostList2 {
 	width: 800px;
 	border: 1px solid rgb(221, 225, 221);
-	margin-left: 300px;
-	padding: 10px;
-	align-items: center;
+	margin-left: 273px;
+	padding: 8px 4px;
 }
 
 .topPost2Number1 {
-
+	padding: 4px;
 	border: 1px solid rgb(221, 225, 221);
 	margin-left: 10px;
 	font-weight: 400;
 	background-color: #5EBA7D;
-	font-size: 15px;
 	color: white;
+	border-radius: 4px;
 }
 
 
@@ -1051,131 +954,63 @@ a:visited {
 	font-size: small;
 	color: #3498DB;
 	font-weight: 400;
-	cursor: pointer;
-}
-
-.topPost2Date2 {
-	margin-left: 290px;
-	font-size: small;
-	color: rgb(96, 95, 93);
-	font-weight: 400;
-}
-
-.topPost2Date3 {
-	margin-left: 260px;
-	font-size: small;
-	color: rgb(96, 95, 93);
-	font-weight: 400;
-}
-
-.topPost2Date4 {
-	margin-left: 280px;
-	font-size: small;
-	color: rgb(96, 95, 93);
-	font-weight: 400;
-}
-
-.topPost2Date5 {
-	margin-left: 315px;
-	font-size: small;
-	color: rgb(96, 95, 93);
-	font-weight: 400;
-}
-
-.topPost2Date6 {
-	margin-left: 313px;
-	font-size: small;
-	color: rgb(96, 95, 93);
-	font-weight: 400;
-}
-
-.topPost2Date7 {
-	margin-left: 323px;
-	font-size: small;
-	color: rgb(96, 95, 93);
-	font-weight: 400;
-}
-
-.topPost2Date8 {
-	margin-left: 282px;
-	font-size: small;
-	color: rgb(96, 95, 93);
-	font-weight: 400;
-}
-
-.topPost2Date9 {
-	margin-left: 265px;
-	font-size: small;
-	color: rgb(96, 95, 93);
-	font-weight: 400;
 }
 
 .topPost2Number2 {
+	padding: 4px;
 	margin-left: 10px;
 	border: 1px solid rgb(221, 225, 221);
-	font-weight: 300;
-	font-size: 15px;
 	border-color: rgb(182, 187, 189);
 	color: rgb(52, 52, 54);
-	background-color: rgba(246, 246, 246, 0.993);
+	background-color: #ffffff;
+	border-radius: 4px;
 }
 
 /*third*/
 .topPostList3 {
 	width: 800px;
 	border: 1px solid rgb(221, 225, 221);
-	margin-left: 300px;
+	margin-left: 273px;
 	border-radius: 1px 1px 5px 5px;
-	padding: 10px;
-	align-items: center;
+	padding: 8px 4px;
 }
 
 .topPost3Number1 {
+	padding: 4px;
 	margin-left: 10px;
 	border: 1px solid rgb(221, 225, 221);
-	font-weight: 400;
 	background-color: #5EBA7D;
-	font-size: 15px;
 	color: white;
+	border-radius: 4px;
 	border-color: rgb(182, 187, 189);
 }
 
 .topPost3Text {
 	margin-left: 12px;
-	cursor: pointer;
 	font-size: small;
 	color: #3498DB;
 	font-weight: 400;
 }
 
-.topPost3Date10 {
-
-	margin-left: 475px;
-	font-size: small;
-	color: rgb(96, 95, 93);
-	font-weight: 400;
-}
-
 
 .topPostNumber2 {
-	font-size: 15px;
 	border: 1px solid rgb(221, 225, 221);
 	margin-left: 10px;
-	font-weight: 300;
 	border-color: rgb(182, 187, 189);
 	color: rgb(52, 52, 54);
-	background-color: rgba(246, 246, 246, 0.993);
+	background-color: #ffffff;
+	padding: 3px 8px;
+	border-radius: 4px;
 }
 
 .topPost3Number2 {
-
 	border: 1px solid rgb(221, 225, 221);
 	margin-left: 10px;
-	font-weight: 300;
-	font-size: 15px;
 	border-color: rgb(182, 187, 189);
 	color: rgb(52, 52, 54);
-	background-color: rgba(246, 246, 246, 0.993);
+	background-color: #ffffff;
+	padding: 3px 8px;
+	border-radius: 4px;
 }
 
 
@@ -1183,12 +1018,12 @@ a:visited {
 .topMetaPost {
 	font-size: 20px;
 	font-weight: 400;
-	margin-left: 300px;
+	margin-left: 273px;
 	margin-top: 20px;
 }
 
 .metaTopPost img {
-	margin-top: 20px;
+	margin-top: 25px;
 }
 
 .metaTopPost {
@@ -1207,10 +1042,6 @@ a:visited {
 }
 
 /* network area*/
-.network {
-	align-items: center;
-}
-
 .networkViewAll {
 	font-size: 12px;
 	font-weight: 100;
@@ -1268,10 +1099,6 @@ ul {
 
 }
 
-.social {
-	cursor: pointer;
-}
-
 .socialNetwork2 {
 	margin-top: 280px;
 
@@ -1284,10 +1111,10 @@ ul {
 }
 
 .row img {
-	cursor: pointer;
 	width: 25px;
 	margin-left: 20px;
 }
+
 a {
-	color:#5274d6;
+	color: #5274d6;
 }
