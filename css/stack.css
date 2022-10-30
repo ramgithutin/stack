@@ -41,6 +41,10 @@
 	color: #606060;
 }
 
+.topColor {
+	color: #605f5d;
+}
+
 /* font size*/
 .small {
 	font-size: 12px;
@@ -60,6 +64,10 @@
 .mediumHigh {
 	font-size: 17px;
 	font-weight: 400;
+}
+
+.margin16px {
+	margin: 16px 0px 0px 3px;
 }
 
 /* header */
@@ -206,11 +214,11 @@
 }
 
 .sideBarOption :hover {
-	color: black;
+	color: #000000;
 }
 
 .sideBarOption5 :hover {
-	color: black;
+	color: #000000;
 }
 
 .sideBarOption6 {
@@ -226,8 +234,7 @@
 	width: 130px;
 	background-color: #ffffff;
 	border: 1px solid darkgray;
-	margin-left: 50px;
-	font-size: small;
+	margin: 0px 0px 0px 50px;
 	border-right: transparent;
 
 }
@@ -237,7 +244,7 @@
 }
 
 .card img {
-	margin-left: 10px;
+	margin: 0px 0px 0px 10px;
 	width: 100px;
 }
 
@@ -299,6 +306,7 @@
 	color: grey;
 	margin: 5px 0px 0px 9px;
 }
+
 .localBodyOption {
 	color: grey;
 	margin-left: 4px;
@@ -381,12 +389,17 @@ h2 {
 
 .numbers {
 	padding: 2px 0px 1px 8px;
-	margin: 5px 0px 0px 10px;
+	margin: 5px 0px 0px 0px;
 	font-size: 17px;
 }
 
 .stats .material {
 	margin-left: 10px;
+}
+
+.trophy {
+	width: 25px;
+	margin: 0px 0px 0px 6px;
 }
 
 .aboutUser {
@@ -397,15 +410,13 @@ h2 {
 
 .statText {
 
-	padding: 3px 2px 4px 13px;
-	margin-left: 10px;
+	padding: 3px 2px 4px 11px;
 	color: #818181;
 	font-size: 13px;
 }
 
 .statText1 {
 	padding: 0px 10px;
-	margin-left: 10px;
 	color: #818181;
 	font-size: 13px;
 }
@@ -435,6 +446,14 @@ h2 {
 
 .communityOption {
 	font-weight: 10;
+}
+
+.space1 {
+	padding-right: 19px;
+}
+
+.space2 {
+	padding-right: 27px;
 }
 
 .space {
@@ -524,6 +543,7 @@ a:visited {
 
 .badgesView {
 	color: #818181;
+	margin: 0px 16px 0px 0px;
 }
 
 .badges img {
@@ -611,9 +631,8 @@ a:visited {
 
 .topTagView {
 	flex: 2;
-	font-size: 15px;
 	font-weight: 100;
-	margin: 24px 11px 0px 34px;
+	margin: 24px 11px 14px 34px;
 }
 
 .topTagNumber1 {
@@ -621,44 +640,15 @@ a:visited {
 }
 
 .topTagScore1 {
-	margin: 16px 0px 0px 3px;
-	font-size: small;
-	color: #605f5d;
 	font-weight: 100;
 }
 
 .topTagNumber2 {
 	margin: 12px 0px 0px 25px;
-	font-weight: 100;
 }
-
-.topTagScore2 {
-	margin: 16px 0px 0px 3px;
-	font-size: small;
-	color: #605f5d;
-	font-weight: 100;
-}
-
 
 .topTagNumber3 {
 	margin: 12px 0px 0px 12px;
-	font-weight: 100;
-}
-
-.topTagscentre1 {
-	margin: 16px 0px 0px 3px;
-	font-size: small;
-	color: #605f5d;
-	font-weight: 100;
-
-}
-
-.topTagScore2 {
-	margin: 16px 0px 0px 3px;
-	font-size: small;
-	color: #605f5d;
-	font-weight: 100;
-
 }
 
 /*second*/
@@ -684,42 +674,12 @@ a:visited {
 }
 
 .topTag2Score1 {
-	margin: 16px 0px 0px 3px;
 	font-size: small;
-	color: #605f5d;
 	font-weight: 100;
 }
 
 .topTag2Number2 {
 	margin: 12px 0px 0px 25px;
-}
-
-.topTag2Score2 {
-	margin: 16px 0px 0px 3px;
-	font-size: small;
-	color: #605f5d;
-	font-weight: 100;
-}
-
-
-.topTag2Number3 {
-	margin: 12px 0px 0px 12px;
-}
-
-.topTags2centre1 {
-	margin: 16px 0px 0px 3px;
-	font-size: small;
-	color: #605f5d;
-	font-weight: 100;
-
-}
-
-.topTag2Score2 {
-	margin: 16px 0px 0px 3px;
-	font-size: small;
-	color: #605f5d;
-	font-weight: 100;
-
 }
 
 /*third*/
@@ -735,59 +695,8 @@ a:visited {
 	margin-top: 12px;
 }
 
-.topTag3Score1 {
-	margin: 16px 0px 0px 3px;
-	font-size: small;
-	color: #605f5d;
-	font-weight: 100;
-}
-
 .topTag3Number2 {
 	margin: 12px 0px 0px 25px;
-}
-
-.topTag3Score2 {
-	margin: 16px 0px 0px 3px;
-	font-size: small;
-	color: #605f5d;
-	font-weight: 100;
-}
-
-
-.topTag3Number3 {
-
-	margin: 12px 0px 0px 12px;
-
-}
-
-.topTags3centre1 {
-	margin: 16px 0px 0px 3px;
-	font-size: small;
-	color: #605f5d;
-	font-weight: 100;
-
-}
-
-.topTag3Score2 {
-	margin: 16px 0px 0px 3px;
-	font-size: small;
-	color: #605f5d;
-	font-weight: 100;
-}
-
-.topTags3centre1 {
-	margin: 16px 0px 0px 3px;
-	font-size: small;
-	color: #605f5d;
-	font-weight: 100;
-
-}
-
-.topTag3Score2 {
-	margin: 16px 0px 0px 3px;
-	font-size: small;
-	color: #605f5d;
-	font-weight: 100;
 }
 
 /*top post header*/
@@ -798,8 +707,12 @@ a:visited {
 	margin: 20px 0px 0px 273px;
 }
 
+.mainTopPostHeader {
+	margin: 0px 0px 14px 0px;
+}
+
 .topPostView {
-	margin-left: 273px;
+	margin: 0px 0px 0px 273px;
 	font-size: medium;
 	font-weight: 100;
 }
@@ -949,8 +862,7 @@ a:visited {
 .topPost3Number2 {
 	border: 1px solid #dde1dd;
 	margin-left: 10px;
-	border-color: #b6bbbd
-	;
+	border-color: #b6bbbd;
 	color: #343436;
 	background-color: #ffffff;
 	padding: 3px 8px;
@@ -986,7 +898,7 @@ a:visited {
 .networkViewAll {
 	font-size: 12px;
 	font-weight: 100;
-	margin: 20px 0px 0px 500px;
+	margin: 20px 16px 0px 0px;
 }
 
 /*footrt*/
